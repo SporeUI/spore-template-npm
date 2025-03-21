@@ -1,0 +1,7 @@
+node_modules
+ignore
+temp
+dist
+types
+lib
+*.d.ts

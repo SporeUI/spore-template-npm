@@ -1,0 +1,18 @@
+ls:
+  lib:
+    .js: kebab-case
+  src:
+    .ts: kebab-case
+    .js: kebab-case
+    .css: kebab-case
+    .less: kebab-case
+  scripts:
+    .js: kebab-case
+  test:
+    .js: kebab-case
+    .test.js: kebab-case
+ignore:
+  - example/vue.config.js
+  - public
+  - .git
+  - node_modules
