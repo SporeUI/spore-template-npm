@@ -1,9 +1,10 @@
 {
   "name": "@spore-ui/spore-template-npm",
   "version": "0.0.0-development",
-  "private": true,
-  "description": "Web公共组件项目模板",
+  "description": "Web 公共组件项目模板",
   "main": "dist/spore-template-npm.js",
+  "module": "es6/spore-template-npm.js",
+  "types": "types/spore-template-npm.d.ts",
   "sideEffects": false,
   "scripts": {
     "dev": "vite",

@@ -16,6 +16,8 @@ config.dist = 'dist';
 config.name = $package.name || 'demo';
 config.name = config.name.replace(/^@\w+\//, '');
 // 项目组
-config.group = 'group';
+config.group = '';
+
+console.info('config:', config);
 
 module.exports = config;
