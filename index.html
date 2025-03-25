@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="/bootstrap.min.css">
+<title>SPORE-TEMPLATE-NPM</title>
+<style type="text/css">
+.demo-list{
+  padding: 10px;
+  padding-bottom: 40px;
+}
+.demo-list .item{
+  margin-bottom: 20px;
+}
+.demo-list .tip{
+  margin-top: 5px;
+  font-size: 12px;
+  color: #999;
+}
+.demo-list .tip::before{
+  content: 'tip:';
+  display: inline-block;
+  margin-right: 5px;
+}
+.demo-list .result{
+  word-break: break-all;
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #333;
+}
+.demo-list .result::before{
+  content: 'result:';
+  display: inline-block;
+  margin-right: 5px;
+}
+.demo-list .text{
+  word-break: break-all;
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #333;
+}
+.demo-list .link{
+
+}
+.demo-list .title{
+  word-break: break-all;
+  margin-top: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+.demo-list input.form-control{
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+.demo-qrbox{
+  margin: 30px 20px 10px;
+}
+.demo-qrbox img{
+  display: block;
+  max-width: 300px;
+  width: 70%;
+  margin: 0 auto;
+}
+.demo-qrbox a{
+  margin-top: 10px;
+  text-align: center;
+  display: block;
+  word-wrap: break-word;
+}
+</style>
+</head>
+
+<body>
+<div class="demo-list">
+  <h3>基础示例</h3>
+  <hr>
+  <div class="item demo-callapp">
+    <button type="button" class="btn btn-primary btn-lg btn-block">示例按钮</button>
+    <div class="tip">按钮提示信息</div>
+  </div>
+</div>
+<script src="/vconsole.min.js" crossorigin="anonymous"></script>
+<script>
+if (window.VConsole && !window.vConsole) {
+  window.vConsole = new window.VConsole()
+}
+</script>
+<script type="module" src="/src/index.ts"></script>
+<script>
+const pageInit = async () => {
+
+};
+
+pageInit();
+</script>
+</body>
+
+</html>
