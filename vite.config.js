@@ -5,10 +5,15 @@ export default defineConfig(({ mode }) => {
   // 设置第三个参数为 '' 来加载所有环境变量，而不管是否有
   // `VITE_` 前缀。
   const env = loadEnv(mode, process.cwd(), '')
+
   return {
     // vite 配置
+    server: {
+      host: '127.0.0.1',
+      port: 3000,
+    },
     define: {
-      __APP_ENV__: JSON.stringify(env.APP_ENV),
+      NODE_ENV: JSON.stringify(env.NODE_ENV),
     },
   }
 })
